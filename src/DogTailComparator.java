@@ -1,5 +1,4 @@
 
-//Virginia Anyim vian2657
 import java.util.Comparator;
 
 public class DogTailComparator implements Comparator<Dog> {

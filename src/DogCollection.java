@@ -1,5 +1,3 @@
-
-//Virginia Anyim vian2657
 import java.util.ArrayList;
 
 public class DogCollection {
@@ -9,7 +7,7 @@ public class DogCollection {
     // Lägg till en ny hund i samlingen
     public boolean addDog(Dog dog) {
         if (dog == null) {
-            return false; // Om hunden är null returnera false
+            return false;
         }
         if (containsDog(dog)) { // Kontroll om hunden redan finns i samlingen
             return false;
@@ -22,7 +20,7 @@ public class DogCollection {
     // Ta bort en hund med det angivna namnet från samlingen
     public boolean removeDog(String dogName) {
         if (dogName == null) {
-            return false; // Om hundens namn är null returnera false
+            return false;
         }
         for (int i = 0; i < dogs.size(); i++) {
             if (dogs.get(i).getName().equals(dogName) && dogs.get(i).getOwner() == null) {
@@ -64,7 +62,7 @@ public class DogCollection {
         for (int i = 0; i < dogs.size(); i++) {
             Dog newDog = dogs.get(i);
             if (newDog.getName().equals(dogName)) {
-                return newDog; // Returnera hunden om den hittas i samlingen
+                return newDog;
             }
         }
         return null;
@@ -85,7 +83,7 @@ public class DogCollection {
         for (Dog dog : dogs) {
             if (dog.getTailLength() >= tailLength) {
                 selectedDogs.add(dog); // Lägg till hunden om dess svanslängd är större eller lika med den angivna
-                                       // svanslängden
+                                       // svanslängd
             }
         }
 

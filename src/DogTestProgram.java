@@ -1,6 +1,3 @@
-
-//Virginia Anyim vian2657
-
 public class DogTestProgram {
 
     public static void main(String[] args) {

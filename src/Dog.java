@@ -1,4 +1,3 @@
-//Virginia Anyim vian2657
 public class Dog {
     // Instansvariabler för hundens egenskaper
     private String name;
@@ -50,27 +49,22 @@ public class Dog {
         }
     }
 
-    // Metod för att hämta svanslängd
     public double getTailLength() {
         return tailLength;
     }
 
-    // Metod för att hämta hundens namn
     public String getName() {
         return name;
     }
 
-    // Metod för att hämta hundens ras
     public String getBreed() {
         return breed;
     }
 
-    // Metod för att hämta hundens ålder
     public int getAge() {
         return age;
     }
 
-    // Metod för att hämta hundens vikt
     public int getWeight() {
         return weight;
     }

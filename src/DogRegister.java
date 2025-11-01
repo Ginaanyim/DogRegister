@@ -1,5 +1,3 @@
-
-//Virginia Anyim vian2657
 import java.util.ArrayList;
 
 public class DogRegister {
